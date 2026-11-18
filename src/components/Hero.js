@@ -2,9 +2,10 @@ import React, { useState, useEffect } from "react";
 import { Container, Button, Row, Col } from "react-bootstrap";
 import AqilImage from "../assets/Aqil.jpeg"; // ✅ Import gambar
 
+// Pindahkan ke luar komponen agar dianggap konstanta statis
+const titles = ["Front End Developer", "UI/UX Design", "Private Teacher"];
 
 export default function Hero() {
-  const titles = ["Front End Developer", "UI/UX Design", "Private Teacher"];
   const [titleIndex, setTitleIndex] = useState(0);
   const [fade, setFade] = useState(true);
 

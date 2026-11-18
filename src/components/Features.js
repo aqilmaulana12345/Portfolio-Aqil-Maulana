@@ -75,9 +75,7 @@ export default function Features() {
         <h2 className="text-start mb-4">Projects</h2>
         <Tab.Container defaultActiveKey="All">
           <Nav variant="pills" className="mb-3 custom-tabs">
-            <Nav.Item>
-              <Nav.Link eventKey="All">All</Nav.Link>
-            </Nav.Item>
+       
             <Nav.Item>
               <Nav.Link eventKey="Software Engineer">Software Engineer (Front End Developer)</Nav.Link>
             </Nav.Item>
@@ -200,6 +198,32 @@ export default function Features() {
               website: "https://weatherapp-six-pink.vercel.app/",   // ✅ link khusus
             github: "https://github.com/aqilmaulana12345/PTApelMerahMedika.github.io"
           },
+          {
+            title: "Lendsqr",
+            text: "Building responsive and scalable money management apps.",
+            category: "Software Engineer",
+            image: require("../assets/portfolio/lendsqr.PNG"),
+            website: "https://lendsqr-aqilmaulana.vercel.app/login",   // ✅ link khusus
+           
+          },
+          {
+            title: "Rakamin's Project ",
+            text: "Building responsive and scalable money management apps.",
+            category: "Software Engineer",
+            image: require("../assets/portfolio/rakamin.PNG"), 
+            github: "https://github.com/aqilmaulana12345/ai-interview-platform" ,
+            website: "https://github.com/aqilmaulana12345/ai-interview-platform",   // ✅ link khusus
+
+          },
+          {
+            title: "Chain Fleet Project ",
+            text: "Building responsive and scalable money management apps.",
+            category: "Software Engineer",
+            image: require("../assets/portfolio/web3.jpg"), 
+            github: "https://github.com/aqilmaulana12345/PTApelMerahMedika.github.io",
+            website: "https://carfleet-nagquhnj4-aqilmaulana12345s-projects.vercel.app/",   // ✅ link khusus
+          }
+
     ].map((feature, index) => (
       <Col xs={12} md={6} className="mb-4" key={index}>
         <Card

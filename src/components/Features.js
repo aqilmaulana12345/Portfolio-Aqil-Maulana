@@ -208,7 +208,7 @@ export default function Features() {
           },
           {
             title: "Rakamin's Project ",
-            text: "Building responsive and scalable money management apps.",
+            text: "Building responsive and sclable Ai platform from Rakamin's Project.",
             category: "Software Engineer",
             image: require("../assets/portfolio/rakamin.PNG"), 
             github: "https://github.com/aqilmaulana12345/ai-interview-platform" ,
@@ -217,7 +217,7 @@ export default function Features() {
           },
           {
             title: "Chain Fleet Project ",
-            text: "Building responsive and scalable money management apps.",
+            text: "Building responsive and scalable Car Rental With Web 3 Method.",
             category: "Software Engineer",
             image: require("../assets/portfolio/web3.jpg"), 
             github: "https://github.com/aqilmaulana12345/PTApelMerahMedika.github.io",
